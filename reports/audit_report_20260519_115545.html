@@ -1,0 +1,108 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AD IAM Audit Report</title>
+    <style>
+        body { font-family: 'Segoe UI', Arial, sans-serif; background: #f4f4f4; color: #222; margin: 0; padding: 0; }
+        .container { max-width: 960px; margin: 40px auto; background: #fff; border-radius: 8px; box-shadow: 0 2px 12px rgba(0,0,0,0.08); padding: 48px; }
+        h1 { color: #1a1a2e; font-size: 2em; margin-bottom: 4px; }
+        h2 { color: #1a1a2e; font-size: 1.2em; border-bottom: 2px solid #e0e0e0; padding-bottom: 8px; margin-top: 40px; }
+        .meta { color: #666; font-size: 0.95em; margin-bottom: 32px; }
+        .summary-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; margin: 24px 0; }
+        .summary-card { background: #f8f8f8; border-radius: 6px; padding: 20px; text-align: center; border-top: 4px solid #1a1a2e; }
+        .summary-card .number { font-size: 2em; font-weight: bold; color: #1a1a2e; }
+        .summary-card .label { font-size: 0.85em; color: #666; margin-top: 4px; }
+        .check-block { margin-bottom: 32px; }
+        .severity-badge { display: inline-block; padding: 3px 12px; border-radius: 12px; font-size: 0.8em; font-weight: bold; color: #fff; margin-left: 12px; vertical-align: middle; }
+        .finding { background: #fafafa; border-left: 4px solid #e0e0e0; padding: 12px 16px; margin: 8px 0; border-radius: 0 4px 4px 0; font-size: 0.95em; }
+        .no-findings { color: #2d862d; font-style: italic; }
+        table { width: 100%; border-collapse: collapse; margin-top: 12px; }
+        th { background: #1a1a2e; color: #fff; padding: 10px 14px; text-align: left; font-size: 0.9em; }
+        td { padding: 10px 14px; border-bottom: 1px solid #e0e0e0; font-size: 0.9em; }
+        tr:nth-child(even) { background: #f8f8f8; }
+        .footer { margin-top: 48px; color: #aaa; font-size: 0.85em; text-align: center; border-top: 1px solid #e0e0e0; padding-top: 24px; }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>Active Directory IAM Audit Report</h1>
+    <div class="meta">
+        Domain: <strong>corp.local</strong> &nbsp;|&nbsp;
+        Generated: <strong>2026-05-19 11:55:45</strong> &nbsp;|&nbsp;
+        Total Users Scanned: <strong>0</strong>
+    </div>
+
+    <div class="summary-grid">
+        
+        <div class="summary-card">
+            <div class="number">0</div>
+            <div class="label">Cross-Department Group Memberships</div>
+        </div>
+        
+        <div class="summary-card">
+            <div class="number">0</div>
+            <div class="label">Disabled Accounts in Active OUs</div>
+        </div>
+        
+        <div class="summary-card">
+            <div class="number">0</div>
+            <div class="label">Accounts With No Group Memberships</div>
+        </div>
+        
+        <div class="summary-card">
+            <div class="number">0</div>
+            <div class="label">Inactive or Never Logged In Accounts</div>
+        </div>
+        
+    </div>
+
+    
+    <div class="check-block">
+        <h2>
+            Cross-Department Group Memberships
+            <span class="severity-badge" style="background: #e65c00;">High</span>
+        </h2>
+        
+            <p class="no-findings">✓ No findings for this check.</p>
+        
+    </div>
+    
+    <div class="check-block">
+        <h2>
+            Disabled Accounts in Active OUs
+            <span class="severity-badge" style="background: #ccaa00;">Medium</span>
+        </h2>
+        
+            <p class="no-findings">✓ No findings for this check.</p>
+        
+    </div>
+    
+    <div class="check-block">
+        <h2>
+            Accounts With No Group Memberships
+            <span class="severity-badge" style="background: #ccaa00;">Medium</span>
+        </h2>
+        
+            <p class="no-findings">✓ No findings for this check.</p>
+        
+    </div>
+    
+    <div class="check-block">
+        <h2>
+            Inactive or Never Logged In Accounts
+            <span class="severity-badge" style="background: #e65c00;">High</span>
+        </h2>
+        
+            <p class="no-findings">✓ No findings for this check.</p>
+        
+    </div>
+    
+
+    <div class="footer">
+        AD IAM Auditor &nbsp;|&nbsp; Generated 2026-05-19 11:55:45 &nbsp;|&nbsp; corp.local
+    </div>
+</div>
+</body>
+</html>

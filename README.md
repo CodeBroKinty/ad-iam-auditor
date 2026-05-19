@@ -235,4 +235,4 @@ python auditor.py
 
 ---
 
-*Built by Kiante | 2026 | Python · ldap3 · Active Directory · LDAPS*
+*Built by CodeBroKinty | 2026 | Python · ldap3 · Active Directory · LDAPS*
